@@ -1,0 +1,85 @@
+# Scenarios adapted from https://github.com/singh2/infographic-builder/blob/main/eval/scenarios.yaml
+
+scenarios:
+
+  - name: minimal-claymation
+    prompt: >
+      How is chocolate made from bean to bar? Claymation Studio style.
+
+  - name: minimal-sketchnote
+    prompt: >
+      How the immune system fights a cold. Hand-Drawn Sketchnote style.
+
+  - name: campfire
+    prompt: >
+      Make an infographic about building the perfect campfire. Cover both the
+      science behind combustion and the practical fire-building technique.
+      Go for a warm, illustrated feel.
+
+  - name: dns
+    prompt: >
+      How does DNS work? I want an infographic I can use to explain the full
+      lookup process to junior developers on my team. Keep it clean and
+      technical looking.
+
+  - name: sleep-stages
+    prompt: >
+      Make a Hand-Drawn Sketchnote infographic about why sleep matters and
+      what happens during each stage of sleep. Something I could hang in a
+      doctor's waiting room.
+
+  - name: coffee-bean
+    prompt: >
+      Create a 5-panel infographic about "The Life of a Coffee Bean".
+      Panel 1 "Growing": coffee belt regions, cherry development on the branch,
+      altitude and shade impact on flavor.
+      Panel 2 "Harvesting & Processing": hand-picking vs strip-picking, washed vs
+      natural vs honey processing methods.
+      Panel 3 "Roasting": green bean transformation, Maillard reaction, first crack,
+      roast profiles (light/medium/dark).
+      Panel 4 "Brewing": grind size spectrum, water temperature, extraction time,
+      brew methods (espresso, pour-over, French press).
+      Panel 5 "The Cup": flavor wheel, tasting notes (acidity, body, sweetness),
+      single-origin vs blend characteristics.
+      Warm earthy style with rich browns, cream, and forest greens on a light
+      parchment background, illustrated feel. 9:16 aspect ratio.
+
+  - name: engineering-onboarding
+    prompt: >
+      Create an onboarding guide infographic for new engineers joining a modern
+      software team. Cover three areas: (1) Repository structure -- how the
+      codebase is organized, key directories, where tests and configs live.
+      (2) Development workflow -- branching strategy, PR process, review
+      expectations, CI/CD pipeline overview. (3) Team conventions -- commit
+      message format, code style guide, how to ask for help, on-call rotation.
+      Make it practical and scannable, aimed at engineers on day one who need
+      a single reference they can pin up or bookmark.
+
+  - name: data-pipeline-materialistic-3d
+    prompt: >
+      Create a 1-panel infographic of a modern data pipeline in materialistic 3D
+      style. Render 5 stages as physical glossy 3D platforms connected by glowing
+      neon data streams: Ingest (Kafka/Kinesis -- metallic funnel), Store (Data
+      Lake -- crystalline ice block), Process (Spark/dbt -- glowing compute
+      cluster), Serve (Data Warehouse -- polished mirror-finish surface), Consume
+      (BI Tools -- floating display screens). Dark background, dramatic downward
+      studio lighting, each stage a distinct saturated accent color. 9:16 aspect
+      ratio.
+
+  - name: photosynthesis
+    prompt: >
+      Make an infographic explaining how photosynthesis works. Something
+      bright and friendly that would work in a classroom.
+
+  - name: amplifier-repo-architecture
+    prompt: >
+      Browse https://github.com/microsoft/amplifier and create an infographic
+      explaining the architecture of the Amplifier AI agent framework. Cover the
+      key layers: (1) the kernel (amplifier-core -- tiny stable center, session
+      lifecycle, module loading, event system), (2) the 5 module types and what
+      each does (Provider, Tool, Orchestrator, Context, Hook -- distinguish
+      LLM-decided vs code-decided), (3) the Foundation library and bundle
+      composition system, (4) how agents and recipes sit on top as
+      application-layer patterns. Show the dependency hierarchy and the core
+      design principle: mechanism not policy, the center stays still so the
+      edges can move fast.
